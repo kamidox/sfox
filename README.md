@@ -32,7 +32,7 @@ So, you could see a geek in 2007 who use feature phone develop by the company he
 
 sfox use following open source project:
 
-1. [gitlib][4]
+1. [giflib][4]
 2. [libjpeg][5]
 3. [libpng][6]
 4. [xyssl][7], which rename to [polarssl][8] now
