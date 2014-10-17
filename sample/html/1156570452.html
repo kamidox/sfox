@@ -1,0 +1,166 @@
+e88
+<html>
+<head>
+	<title>新邮件</title>
+	<META http-equiv="Content-Type" content="text/html; charset=GB2312">
+	
+
+	<!-- Global Cascading Style Sheets BEGIN -->
+	<style type="text/css">
+		body		{
+			font-size:13;
+			font-family:Arial,Helvetica,sans-serif;
+		}
+		table		{ font-size:13; }
+		.textarea	{ font-size:13; }
+		.body		{ font-size:13; }
+		.textbox	{ font-size:13; }
+
+		#hysm-ucarp { margin-left:40px; margin-top:5px; width:90%; padding:5px; }
+	</style>
+	<!-- Global Cascading Style Sheets END -->
+
+	<style type="text/css">
+	.import {
+		border:1px solid #FFFFFF;
+		background-color:transparent;
+		color:#333333;
+		cursor:hand;
+		width:60px;
+	}
+	</style>
+	<link rel="stylesheet" href="../style/cece.css" type="text/css">
+	
+	<script language="javascript">
+		function popAddrWin(){
+			var attr = "width=470,height=250,toolbar=no,menubar=no,statusbar=no";
+			attr += ",top=300,left=160,scrollbars=yes";
+			var win = window.open("address.php?act=pop","addr",attr);
+			if(win){
+				win.focus();
+			}
+		}
+	</script>
+	
+</head>
+<body>
+		<table cellpadding=0 cellspacing=0 class=default_bar>
+	<tr>
+		<td width=150 class=default_bar_title>&nbsp;撰写新邮件&nbsp;</td>
+		<td class=default_bar_ext>&nbsp;</td>
+	</tr>
+</table>
+<form method=post enctype="multipart/form-data" name=mail action="newmail.php">
+<TABLE CELLPADDING=0 CELLSPACING=0 ALIGN=CENTER WIDTH=620 class=highlight>
+<TR><TD CLASS=THEME_TL></TD><TD CLASS=THEME_T></TD><TD CLASS=THEME_TR></TR>
+<TR><TD CLASS=THEME_L><TD>
+<table cellpadding=0 cellspacing=1  width=100%>
+<colgroup>
+<col width=40>
+<col>
+</colgroup>
+<!-- draft warning start -->
+<!-- draft warning end -->
+
+<!-- mail header start-->
+<tr>
+	<td><input type=button value="收信人" class=import  onClick='popAddrWin()' onMouseOver="this.style.borderStyle='outset'" onMouseOut="this.style.borderStyle='solid'" title='点击打开通讯录'>
+	<td><input name=To value="" type=text class=textbox style="width:530px;border-width:0px 0px 1px 0px;background-color:transparent;" tabindex=1 title="输入收信人Email地址，多个地址用逗号','隔开">
+<tr>
+	<td><input type=button value="抄送" class=import  onClick='popAddrWin()' onClick='popAddrWin()' onMouseOver="this.style.borderStyle='outset'" onMouseOut="this.style.borderStyle='solid'" title='点击打开通讯录'>
+	<td><input name=Cc value="" type=text class=textbox style="width:530px;border-width:0px 0px 1px 0px;background-color:transparent;" tabindex=2 title="输入抄送人Email地址，多个地址用逗号','隔开">
+<tr>
+	<td><input type=button value="主题" style="background-color:transparent;color:#333333" class=import>
+	<td><input name=Subject value="" type=text class=textbox style="width:530px;border-width:0px 0px 1px 0px;background-color:transparent;" tabindex=4 title="请输入邮件主题">
+<tr>
+	<td valign=top><input type=button value="附件" style="background-color:transparent;color:#333333" class=import>
+	<td>
+		<table cellpadding=0 cellspacing=1 border=0>
+			<tr><td>
+						</td></tr>
+		</table>
+	</td>
+</tr>
+<tr height=10><td colspan=2></td></tr>
+<!-- mail header end -->
+
+<!-- top tool bar start -->
+<tr>
+	<td colspan=2>
+		<div style='float:left'>
+		<input type=button value="邮件正文" style="background-color:transparent;color:#333333" class=import>
+		</div>
+		<div style='float:right'>
+			<input type=submit value="暂  存" name=autosaver class=button title='将当前编辑的邮件暂存到服务器'>
+			<input type=submit name=save value="保存草稿" class=button title='将当前编辑的邮件保存到草稿箱'>
+			<input type=submit name=send value="发送" class=button title='立即发送邮件'>
+		</div>
+	</td>
+</tr>
+<!-- top tool bar end -->
+
+<!-- mail body start -->
+<tr>
+	<td valign=top></td>
+	<td colspan=2>
+		<textarea class=textarea name=Body tabindex=5 style='width:530px;height:300px;' title='
+6a7
+邮件主体'></textarea>
+	</td>
+</tr>
+<!-- mail body end -->
+
+<!-- bottom tool bar start -->
+<tr>
+	<td colspan=2 align=right>
+		<div style='clear:right;float:right'>
+			<input type=reset value="重写" class=button title='删除本次输入'>
+			<input type=submit name=save value="保存草稿" class=button title='将当前编辑的邮件保存到草稿箱'>
+			<input type=submit name=send value="发送" class=button tabindex=6 title='立即发送邮件'>
+		</div>
+	</td>
+</tr>
+<tr><td colspan=2>&nbsp;</td></tr>
+<!-- bottom tool bar end -->
+
+<!-- upload bar start -->
+<tr>
+	<td><input type=button value="附件" style="background-color:transparent;color:#333333" class=import></td>
+	<td align=right>
+		<input type=file name=attach class=textbox style="width:400px;">&nbsp;
+		<input type=submit class=button name=add value="上传" title="点击上传附件,不影响邮件编辑">
+	</td>
+</tr>
+<!-- upload bar end -->
+
+<!-- attachment list start -->
+<tr style="color:blue">
+	<td>
+	<td>
+		<table cellpadding=0 cellspacing=0 align=left style="font-size:13;color:blue;">
+								</table>
+		<input type=hidden name=delfn value="">
+		<input type=hidden name=delfg value="NULL">
+		<input type=hidden name=MsgID value="">
+		<input type=hidden name=mode value="">
+	</td>
+</tr>
+<!-- attachment list end -->
+
+<!-- sign file start -->
+<!-- sign file end -->
+</table>
+</TD><TD CLASS=THEME_R></TR>
+<TR height=30><TD CLASS=THEME_L></TD><TD align=right valign=bottom><a href="doc_index.php?module=newmail" target="doc">帮助</a><TD CLASS=THEME_R></TD></TR>
+<TR><TD CLASS=THEME_BL></TD><TD CLASS=THEME_B></TD><TD CLASS=THEME_BR></TR>
+</TABLE>
+</form>
+<br><br>
+<div class=copyright>
+	v2.9.2.20041230
+	版权所有 &copy;1998,2006 武汉汉元软件有限公司</div></body>
+</html>
+
+	
+0
+

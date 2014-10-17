@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card title="&#x624B;&#x673A;&#x641C;&#x72D0;&#x7F51;">
+
+<p>
+
+
+
+<img src="http://wap.sohu.com/images2/upload/4716/74716303.gif" alt=""/><br/>
+<a href="http://wap.sohu.com/sohu/new/?nodeid=15099">&#x5317;&#x4eac;:&#x96f7;&#x9635;&#x96e8; 24&#x81f3;32&#x5ea6;</a><br/><a href="/m2/daohang/?nodeid=277729">导航</a>:<a href="/sports/?fr=home_news">体育</a>-<a href="/yule/?fr=home_yule">娱乐</a>-<a href="http://wap.sohu.com/club/?fr=sohu1">社区</a><br/>
+<a href="http://218.206.87.51/coop/sh/mu.php?fr=s-indexadv">*GoodFeel精品铃声</a><br/>
+<a href="http://wap.sohu.com/club/work/index.jsp?fr=s_work">[新品]想赚金币快来找工�</a><br/>
+�<a href="/news/?fr=home_news">新闻中心</a>�<a href="/rmph/?nodeid=183509">排行�?/a><br/>
+<a href='/news/?nodeid=103072&amp;fr=home_news'>黎巴嫩总理哭诉以蓄意屠杀平民</a><br/>
+<a href='/sports/?nodeid=504709&amp;fr=home_news'>[直播]A3:大连实德0-2蔚山现代</a><br/>
+<a href='/news/newsdetail.jsp?pid=500&amp;id=244677211&amp;nodeid=10391&amp;fr=home_news'>广州日报原社长黎元江狱中发稿</a><br/>
+<a href='/news/world/newsdetail.jsp?pid=561&amp;id=244673374&amp;nodeid=315474&amp;fr=home_news'>印度部分地区已停止可乐销�?/a><br/>
+<a href='/finance/newsdetail.jsp?pid=560&amp;id=244673005&amp;nodeid=306472'>还有多少“欣弗事件”等待重�?/a><br/>
+<a href='/sports/newsdetail.jsp?id=244673261&amp;pid=244632800&amp;nodeid=103540'>NBA十大落魄英雄：狼王上�?/a><br/>
+<a href='/yule/gt/newsdetail.jsp?id=244673388&amp;pid=220114403&amp;nodeid=16874&amp;fr=s-yule3'>容祖儿与日籍男友返家被扰暴�?/a><br/>
+<a href='/military/newsdetail.jsp?id=244681293&amp;pid=240630127&amp;nodeid=63892&amp;fr=home_news'>日演练大规模机械化登陆钓鱼岛</a><br/>
+<a href='/news/society/shi/newsdetail.jsp?id=244670315&amp;pid=213377553&amp;nodeid=297055&amp;fr=home_news'>货车刮坏局长私宅瓷砖遭�?000</a><br/>
+<a href='/sports/?nodeid=480667&amp;fr=home_news'>姚明大郅缺阵中国男篮惨败梦七</a><br/>
+<a href="/news/china/?nodeid=10399">国内</a>|<a href="/news/world/?nodeid=10386">国际</a>|<a href="/news/?nodeid=102417">社会</a>|<a href="/military/?nodeid=63887">军事</a><br/>
+<a href="/finance/">财经</a>|<a href="/finance/?nodeid=297956&amp;fr=home_news">股票</a>|<a href="/it/">科技</a>|<a href="/auto/?fr=home_auto">汽车</a><br/>
+<a href="http://wap.sohu.com/ad/sem608c/?fr=indexlink2">索爱新e代商务智能手机上�?/a><br/>
+<input emptyok="true" name="searchword" value=""  size="20" /><br/>�?
+<anchor>
+<go href="http://wap.sohu.com/news/newsSearchList.jsp" >
+   <postfield name="keywords" value="$(searchword)"/>
+   	<postfield name="nodeid" value="10367"/>
+   	<postfield name="operation" value="record"/>	</go>新闻
+</anchor>
+<anchor title='搜索'>
+<go href='http://218.206.87.100/ms/ring/c.jsp?colid=1086&amp;colcd=1086&amp;fr=s-ptl-srch' method='get'>
+   <postfield name='skk' value='$(searchword)'/>
+</go>铃声</anchor>
+<anchor title='搜索'>
+<go href='http://218.206.87.100/coop/sh/c.jsp?colid=1005&amp;colcd=1005&amp;fr=s-search' method='get'>
+   <postfield name='skk' value='$(searchword)'/>
+</go>图片</anchor><br/>
+<a href="http://218.206.87.100/coop/dgt/c.jsp?colcd=1086&amp;fr=sohu-gs">*当红歌手MP3专辑3元全�?/a><br/>
+【时�?情色�?br/>
+<a href='/auto/xiangche/picList.jsp?nodeid=410466&amp;fr=home_che'>组图：日本车模火爆生活写�?/a><br/>
+<a href='/health/love/newsdetail.jsp?pid=241221354&amp;id=101001992&amp;nodeid=11713&amp;fr=s-health5'>闺房情爱：我是你最亲密的情�?/a><br/>
+<a href='/health/love/newsdetail.jsp?id=101001990&amp;pid=220811974&amp;nodeid=11712&amp;fr=s-health5'>两性欲望：天哪！被高潮控制</a><br/>
+<a href='/women/fashion/newsdetail.jsp?pid=202017036&amp;id=244663348&amp;nodeid=28156'>讯息：时光流转名牌新季腕�?/a><br/>
+<a href='/book/yc/content.jsp?ud=&amp;ck=&amp;md=&amp;nodeid=317672&amp;fr=home_news&amp;ds=28&amp;pn=0&amp;did=10458'>惊悚恐怖：盗墓贼的故事鬼吹�?/a><br/>
+<a href="/health/">两�?/a>|<a href="/women/">女人</a>|<a href="/book/">读书</a>|<a href="/allpicture/?fr=s_pic&amp;nodeid=62911">热图</a><br/>
+<a href="http://wap.sohu.com/allpicture/?fr=s_pic&amp;nodeid=62911">下载频道:精彩免费当！</a><br/>
+<a href="http://218.206.87.51/wapmms/sh.php?fr=s-r-by1">*精品图片专区</a><br/>
+<a href="http://wap.sohu.com/club/?fr=s_shequ1">【搜狐社区�?/a><br/>
+[热贴]<a href='/club/bs/al_8_1,bs/a_8_7676495_als_0_0,bs?fr=luntan'>有史以来最BT的自动回�?/a><br/>
+[博客]<a href='http://club.wap.sohu.com/blog/worldcup/article.wml?nodeid=222582&amp;ds=,200651368&amp;pn=0,1&amp;did=7532168&amp;fr=blog'>平民总理，布衣雄�?/a><br/>
+<a href="http://wap.sohu.com/club/chatroom/?fr=sohu2">聊天�?/a>|<a href="http://wap.sohu.com/club/fl,tb/show_w,tieba?fr=sohu3">自拍</a>|<a href="http://wap.sohu.com/info/match/index.jsp?fr=s_shequ2">结婚</a>|<a href="http://club.wap.sohu.com/blog/?fr=blog">博客</a><br/>
+<a href='http://218.206.87.100:9002/sdqy/free?fr=160'>*惊限☆无禁忌自拍</a><br/>
+<a href="/invest/userInvest.jsp?periodid=721">[热点]搜狐用户调查</a><br/>
+<a href="/sohu/daohang/?nodeid=480446">网站导航</a>&nbsp;<a href="/sohu/setbookmark/?nodeid=480522">设为书签</a><br/>
+<a href="/sohu/yl/?nodeid=480527">友情链接</a>&nbsp;<a href="http://wap.chinaren.com/wap/alumni.jsp?fr=s">校友�?/a><br/>
+<a href="http://218.206.87.100:8080/hservice/help.php?g=2">帮助中心</a> &nbsp;<a href="http://news.wap.sohu.com/suggest/suggest.jsp">欢迎留言</a><br/>
+<a href="/?nodeid=332433">网站商务合作</a><br/>
+
+
+
+[&#x5C0F;&#x72D0;&#x62A5;&#x65F6;:  17:04]<br/>
+
+
+<br/>
+</p>
+
+</card>
+</wml>

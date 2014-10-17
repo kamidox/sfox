@@ -1,0 +1,8 @@
+kamidox:00130014
+Array ( [oauth_token] => 19e8e09c258a6338b0e7e3fdc0c1ec26 [oauth_token_secret] => 39b22b7007238fe1424330947ac9d343 ) 
+
+Array ( [oauth_token] => a650a14be9c0a2482537fb8742d9fb3e [oauth_token_secret] => 39b22b7007238fe1424330947ac9d343 [user_id] => 1050144811 ) 
+
+xmuox:00130014
+Array ( [oauth_token] => d57ed60a0478b7086d8c6eeccec92554 [oauth_token_secret] => 351cd362d70b0dadfa6a05ddf9b6acd1 ) 
+Array ( [oauth_token] => a650a14be9c0a2482537fb8742d9fb3e [oauth_token_secret] => 39b22b7007238fe1424330947ac9d343 [user_id] => 1050144811 )

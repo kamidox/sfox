@@ -1,0 +1,38 @@
+step 1: add win id
+add following code to mmiacc_id.def
+	//SFOX_SUPPORT
+	WIN_ID_DEF(MMIACC_SFOX_WIN_ID, "MMIACC_SFOX_WIN_ID")
+	WIN_ID_DEF(MMIACC_SFOX_EDIT_WIN_ID, "MMIACC_SFOX_EDIT_WIN_ID")
+	WIN_ID_DEF(MMIACC_SFOX_EDIT_CTRL_ID, "MMIACC_SFOX_EDIT_CTRL_ID")
+
+
+step 2: install mmisfox_mian.c
+put mmisfox_main.c in MS_MMI\source\mmi_app\app\sfox\c
+
+step 3: modify app.mk
+add following code to app.mk
+	#SFOX_SUPPORT
+	MINCPATH += Third-party/sfox/inc
+	MSRCPATH += MS_MMI/source/mmi_app/app/sfox/c
+	SOURCES += mmisfox_main.c
+
+step 4: install .h and .a files
+copy inc and sfox.a to Third-party/sfox directory
+
+step 5: modify Makefile.third-party
+add following code
+	#SFOX_SUPPORT
+	3RD_LIBS += Third-party/sfox/sfox.a
+
+step 6: add menu item for entry
+Add one menu item in target device and call sns's entry function MMIAPISFOX_OpenMainWin() 
+
+step 7: modify mmiwap.c
+add following code to mmiwap.c, function HandleWapPsMsg()
+    // SFOX_SUPPORT
+    if ( MMI_RESULT_TRUE == SFOX_NetConnCallback(msg_id, param) )
+    {
+        return MMI_RESULT_TRUE;
+    }
+
+Final: Build target device and have a try.

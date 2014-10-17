@@ -1,0 +1,14 @@
+<smil>
+  <head>
+    <layout>
+      <root-layout width="100%" height="100%" />
+      <region id="Text" left="0%" top="0%" width="100%" height="50%" />
+      <region id="Image" left="0%" top="50%" width="100%" height="50%" />
+    </layout>
+  </head>
+  <body>
+    <par dur="30000ms">
+      <img src="cid:70k.gif" region="Image" alt="70k.gif" />
+    </par>
+  </body>
+</smil>

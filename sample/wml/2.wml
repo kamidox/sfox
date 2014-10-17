@@ -1,0 +1,51 @@
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card title="新闻搜索">
+
+<p>
+  搜索[未来软件]的结果：<br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244686284">1.&#x56fd;&#x4ea7;&#x81ea;&#x4e3b;&#x97f3;&#x89c6;&#x9891;&#x7f16;&#x89e3;&#x7801;&#x6280;&#x672f;&#x4ea7;&#x4e1a;&#x94fe;&#x6b63;&#x65e5;&#x6e10;&#x6e05;&#x6670;&#x002d;&#x641c;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244685858">2.&#x641c;&#x7d22;&#x52a0;&#x5206;&#x7c7b;&#x5e7f;&#x544a;&#x0020;&#x9177;&#x8baf;&#x8ba9;&#x641c;&#x7d22;&#x4e3a;&#x73b0;&#x5b9e;&#x751f;&#x6d3b;&#x670d;&#x52a1;&#x002d;&#x641c;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244684890">3.&#x4e2d;&#x90ae;&#x57fa;&#x91d1;&#x003a;&#x8c03;&#x6574;&#x4e0d;&#x6539;&#x957f;&#x725b;&#x683c;&#x5c40;&#x002d;&#x641c;&#x72d0;&#x65b0;&#x95fb;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244683812">4.&#x005a;&#x004f;&#x004d;&#x8bf4;&#x670d;&#x745e;&#x4e3d;&#x52a0;&#x5165;&#x7535;&#x5b50;&#x6742;&#x5fd7;&#x9635;&#x8425;&#x0020;&#x53cc;&#x8d62;&#x8fd8;&#x662f;&#x4fb5;&#x7565;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244682616">5.&#x4e13;&#x8bbf;&#x6234;&#x5c14;&#x638c;&#x95e8;&#x003a;&#x0020;&#x0050;&#x0043;&#x8bde;&#x751f;&#x0032;&#x0035;&#x5468;&#x5e74;&#x0020;&#x597d;&#x65e5;&#x5b50;&#x5c1a;&#x672a;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244681563">6.&#x673a;&#x5668;&#x4eba;&#x65f6;&#x4ee3;&#x5373;&#x5c06;&#x5f00;&#x542f;&#x002d;&#x641c;&#x72d0;&#x0049;&#x0054;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244681455">7.&#x4e13;&#x8bbf;&#x6234;&#x5c14;&#x638c;&#x95e8;&#x003a;&#x0020;&#x0050;&#x0043;&#x8bde;&#x751f;&#x0032;&#x0035;&#x5468;&#x5e74;&#x0020;&#x597d;&#x65e5;&#x5b50;&#x5c1a;&#x672a;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244680898">8.&#x5228;&#x5228;&#x7f51;&#x798f;&#x5f69;&#x0033;&#x0044;&#x7b2c;&#x0030;&#x0036;&#x0032;&#x0031;&#x0031;&#x671f;&#x70b9;&#x8bc4;&#x003a;&#x767e;&#x4f4d;&#x8d8b;&#x52bf;&#x5c06;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244676900">9.&#x300a;&#xfffd;&#x0074;&#x671b;&#x300b;&#x6587;&#x7ae0;&#x003a;&#x7f8e;&#x4e3a;&#x4f55;&#x5f3a;&#x5316;&#x5bf9;&#x534e;&#x7ecf;&#x6d4e;&#x65bd;&#x538b;&#x002d;&#x641c;&#x72d0;&#x65b0;</a><br/>
+
+<a href="newsdetail.jsp?pid=&amp;nodeid=10367&amp;id=244673989">10.&#x63ed;&#x79d8;&#x6c34;&#x8d27;&#x624b;&#x673a;&#x5165;&#x5883;&#x8def;&#x7ebf;&#x56fe;&#x0020;&#x5546;&#x5bb6;&#x5f00;&#x59cb;&#x8f6c;&#x578b;&#x7f51;&#x7edc;&#x76f4;&#x9500;</a><br/>
+
+
+<anchor>下一页<go href="newsSearchList.jsp" method="post"><postfield name="operation" value="record"/><postfield name="keywords" value="未来软件"/><postfield name="nodeid" value="10367"/><postfield name="pageNo" value="2"/></go></anchor>
+
+<br/>
+<input emptyok="false" size="6" name="word_news" value="未来软件" /><anchor>搜索
+<go href="newsSearchList.jsp" >
+   <postfield name="keywords" value="$(word_news)"/>
+   	<postfield name="nodeid" value="10367"/>
+   	<postfield name="operation" value="record"/>	
+</go>
+</anchor><br/>
+<br/>
+
+<a href="/?">[搜狐首页]</a><br/>
+<br/>
+</p>
+</card>
+</wml>

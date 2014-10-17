@@ -1,0 +1,241 @@
+e64
+<html>
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=GB2312">
+	<link rel=stylesheet href="../style/cece.css" style="text/css">
+	<!-- $Id: menu.html,v 1.1.1.1 2004/10/21 05:14:21 kiwen Exp $ -->
+	<style type="text/css">
+		body {
+			margin:0px;
+			background-color:#EFEFEF;
+			background-image:url('../themes/default/cece/menubg.gif');
+			background-repeat:repeat;
+			font-family:Arial,Helvetica,sans-serif;
+		}
+	.default_menuitem {
+		cursor:hand;	
+		border:0px solid #EFEFEF;
+		color:#362E94;
+		padding-left:5px;
+	}
+	.default_menuimg {
+				width:16px;
+		height:16px;
+		visibility:hidden;
+				border:0px;
+	}
+	.default_menubar {
+		background-image:url("../themes/default/cece/menubar.gif");
+		background-repeat:no-repeat;
+	}
+	.default_sidebar {
+		background-image:url("../themes/default/cece/sidebar.gif");
+		background-repeat:no-repeat;
+		width:20px;
+		height:100%;
+	}
+	.default_footbar {
+		background-image:url('../themes/default/cece/footbar.gif');
+		background-repeat:repeat;"
+	}
+	img {
+		border:0px;
+	}
+	</style>
+	<script language="javascript">
+		panels = new Array("folders","mailtk","sms","box","ad","toolkit","fax");
+		function OpenFolders(id){
+			for(var i=0;i<panels.length;i++){
+				if(document.getElementById(panels[i]))
+					document.getElementById(panels[i]).style.display = "none";
+			}
+			var style = document.getElementById(id).style.display == "" ? "none" : "";
+			document.getElementById(id).style.display = style;
+		}
+		function ptOver(self){
+			self.style.backgroundColor="#362E94";
+			self.style.borderStyle = "outset";
+			self.style.color="#EFEFEF";
+		}
+		function ptOut(self){
+			self.style.backgroundColor="transparent";
+			self.style.borderStyle = "solid";
+			self.style.borderColor = "#EFEFEF";
+			self.style.color="#362E94";
+		}
+		function load(url){
+			top.main.location.href=url;
+		}
+		function showMenu(){
+			var cols = parent.smframe.cols;
+			if(cols == "20,*"){
+				parent.smframe.cols = "140,*";
+				document.images["hide"].src = "/sm2/thems/ICONS/none/back.gif";
+				document.images["hide"].title = "隐藏菜单";
+				document.all.menubar.style.display = "block";
+			}
+			else{
+				parent.smframe.cols = "20,*";
+				document.images["hide"].src = "/sm2/themes/ICONS/none/forward.gif";
+				document.images["hide"].title = "显示菜单";
+				document.all.menubar.style.display = "none";
+			}
+		}
+
+	</script>
+</head>
+<body >
+<!-- main table -->
+<table cellspacing=0 cellpadding=0 align=center style='width:100%;height:100%;' border=0>
+	<tr height=100%>
+		<td valign=top align=center width=120 class=default_menubar>
+			<!-- menu bar start -->
+			<table width=106 align=center  cellpadding=0 cellspacing=0 style='font-size:13;' id=menubar>
+				<tr height=30><td></td></tr>
+				<tr height=31><td style='padding-left:5px;color:#362E94;' valign=bottom title='当前登陆用户名'>
+						<img src='../themes/ICONS/none/user.gif' class=default_menuimg><font class=default_menuhead>huangyc</font>
+					<tr height=25><td style='padding-left:5px;' valign=bottom title='注销当前登陆'>
+						<img src='../themes/ICONS/none/exit.gif' border=0 class=default_menuimg><a href="logout.php" target=_top style='color:#362E94'><font class=default_menuhead>注销登陆</font></a>
+				</td></tr>
+				<tr height=13><td></td></tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("newmail.php")' class=default_menuitem><img src='../themes/ICONS/none/composer.gif' border=0 class=default_menuimg>发邮件<td>
+</tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='OpenFolders("folders")' class=default_menuitem title='邮件相关功能,点击展开'><img src='../themes/ICONS/none/folders.gif' border=0 class=default_menuimg>邮件服务<
+1000
+img src='../themes/ICONS/none/more.gif' border=0><td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id="folders" style="display:block;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 style="font-size:13;width:100%">
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=inbox")' class=default_menuitem title='查看收件箱,15天限制'>&nbsp;<img src='../themes/ICONS/none/inbox.gif' class=default_menuimg>收件箱			<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=inbox&pagesize=1000")' class=default_menuitem width=16 align=center title='显示收件箱1000个邮件'>+</td></tr>
+		<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=outbox")' class=default_menuitem title='查看发件箱,15天限制'>&nbsp;<img src='../themes/ICONS/none/outbox.gif' class=default_menuimg>发件箱				<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=outbox&pagesize=1000")' class=default_menuitem width=16 align=center title='显示发件箱1000个邮件'>+</td></tr>
+		<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=spambox")' class=default_menuitem title='查看过滤箱,15天限制'>&nbsp;<img src='../themes/ICONS/none/outbox.gif' class=default_menuimg>过滤箱				<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=outbox&pagesize=1000")' class=default_menuitem width=16 align=center title='显示发件箱1000个邮件'>+</td></tr>
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=trashbox")' class=default_menuitem title='查看垃圾箱,15天限制'>&nbsp;<img src='../themes/ICONS/none/trashbox.gif' class=default_menuimg>垃圾箱					<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=trashbox&pagesize=1000")' class=default_menuitem width=16 align=center title='显示垃圾箱1000个邮件'>+</td></tr>
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=draftbox")' class=default_menuitem title='查看草稿箱,15天限制'>&nbsp;<img src='../themes/ICONS/none/draftbox.gif' class=default_menuimg>草稿箱			<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("maillist.php?mbox=draftbox&pagesize=1000")' class=default_menuitem width=16 align=center title='显示草稿箱1000个邮件'>+</td></tr>
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("findmail.php")' class=default_menuitem colspan=2 title='查找邮件,没有时间限制'>&nbsp;<img src='../themes/ICONS/none/find.gif' border=0 class=default_menuimg>查找邮件		</table>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='OpenFolders("mailtk")' class=default_menuitem title='邮件工具功能,点击展开'><img src='../themes/ICONS/none/folders.gif' border=0 class=default_menuimg>邮件工具<img src='../themes/ICONS/none/more.gif' border=0><td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id="mailtk" style="display:none;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 style="font-size:13;width:100%">
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("/welfax/tmpdir/tmpdir381AC0E862007B4D52.4953/notice2.htm")' class=default_menuitem colspan=2>&nbsp;<img src='../themes/ICONS/none/status.gif'  border=0 class=default_menuimg>内部发文<td></tr>
+												<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("address.php")' class=default_menuitem colspan=2 title='查看/编辑通讯录'>&nbsp;<img src='../themes/ICONS/none/status.gif' border=0 class=default_menuimg>通讯录<td> </tr>
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("/cgi-bin/welfax/smpop3user.cgi?tmpdir=tmpdir381AC0E862007B4D52.4953&sm2=1")' class=default_menuitem colspan=2>&nbsp;<img src='../themes/ICONS/none/status.gif' border=0 class=default_menuimg>邮箱维护<td> </tr>
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("stat
+ec5
+us.php")' class=default_menuitem colspan=2 title='检查/统计邮箱使用状况'>&nbsp;<img src='../themes/ICONS/none/status.gif'  border=0 class=default_menuimg>邮箱状态<td> </tr>
+		</table>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='OpenFolders("sms")' class=default_menuitem title='短信相关功能,点击展开'><img src='../themes/ICONS/none/folders.gif' border=0 class=default_menuimg>短信服务<img src='../themes/ICONS/none/more.gif' border=0><td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id='sms' style="display:none;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 border=0 style="font-size:13;width:100%;">
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("newsms.php")' class=default_menuitem title='写信息'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>写信息</td></tr>			
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("smslist.php?user=huangyc")' class=default_menuitem title='发信箱'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>发信箱</td></tr>			
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("telbook.php")' class=default_menuitem title='查看/编辑电话薄'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>电话薄</td></tr>			
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("smsset.php")' class=default_menuitem title='短信设置'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>短信设置</td></tr>			
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("findsms.php")' class=default_menuitem title='查找短信'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>查找</td></tr>	
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("smsbill.php?smrev=2")' class=default_menuitem title='短信计费'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>短信计费</td></tr>	
+								<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("sms.php")' class=default_menuitem title='邮件通知'>&nbsp;<img src='../themes/ICONS/none/sms.gif' class=default_menuimg>邮件通知</td></tr>			
+
+		</table>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id='ad' style="display:none;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 style="font-size:13;width:100%;">
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("adsender.php")' class=default_menuitem colspan=2 title='广告发送'>&nbsp;<img src='../themes/ICONS/none/composer.gif' border=0 class=default_menuimg>发广告			</td></tr>
+		</table>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='OpenFolders("box")' class=default_menuitem title='邮箱选项设置,点击展开'><img src='../themes/ICONS/none/folders.gif' border=0 class=default_menuimg>邮箱设置<img src='../themes/ICONS/none/more.gif' border=0><td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id='box' style="display:none;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 style="font-size:13;width:100%;">
+			<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("passwd.php")' class=default_menuitem title='修改密码'>&nbsp;<img src='../themes/ICONS/none/passwd.gif' border=0 class=default_menuimg>密码设置								<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("sign.php")' class=default_menuitem title='设置/修改签名档'>&nbsp;<img src='../themes/ICONS/none/sign.gif' border=0 class=default_menuimg>签名档</td></tr>
+								<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("auto
+1000
+reply.php")' class=default_menuitem title='设置/修改自动回复'>&nbsp;<img src='../themes/ICONS/none/autoreply.gif' border=0 class=default_menuimg>自动回复</td></tr>
+				<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("autoforward.php")' class=default_menuitem title='设置/修改自动转发'>&nbsp;<img src='../themes/ICONS/none/autoforward.gif' border=0 class=default_menuimg>自动转发</td></tr>
+												<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("filter.php")' class=default_menuitem title='设置/修改个人过滤器'>&nbsp;<img src='../themes/ICONS/none/filter.gif' border=0 class=default_menuimg>过滤器</td></tr>
+								<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("personality.php")' class=default_menuitem title='设置/修改界面风格选项'>&nbsp;<img src='../themes/ICONS/none/stylekit.gif' border=0 class=default_menuimg>风格设置</td></tr>
+		</table>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='OpenFolders("toolkit")' class=default_menuitem title='桌面工具,点击展开'><img src='../themes/ICONS/none/folders.gif' border=0 class=default_menuimg>桌面工具<img src='../themes/ICONS/none/more.gif' border=0><td>
+</tr>
+<tr>
+	<td style='padding:2px;'>
+		<div id='toolkit' style="display:none;width:100%;height:160px;" class=default_submenu>
+		<table cellpadding=0 cellspacing=0 style="font-size:13;width:100%;">
+<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("bookmark.php")' class=default_menuitem title='移动书签'>&nbsp;<img src='../themes/ICONS/none/bookmark.gif' border=0 class=default_menuimg>移动书签</td></tr>
+<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='load("calendar.php")' class=default_menuitem title='万年历'>&nbsp;<img src='../themes/ICONS/none/bookmark.gif' border=0 class=default_menuimg>万年历</td></tr>
+<tr><td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='javascript:top.location.href="/welfax/tmpdir/tmpdir381AC0E862007B4D52.4953/"' class=default_menuitem title='经典界面'>&nbsp;<img src='../themes/ICONS/none/bookmark.gif' border=0 class=default_menuimg>经典界面</td></tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='window.open("doc_index.php","docwin","width=600,height=400,left=80,top=100,toolbar=no,menubar=no,statusbar=yes,location=no")' class=default_menuitem title='查看帮助文档'>&nbsp;<img src='../themes/ICONS/none/bookmark.gif' border=0 class=default_menuimg>帮助文档<td>
+</tr>
+<tr>
+	<td onMouseOver='ptOver(this)' onMouseOut='ptOut(this)' onClick='javascript:top.location.href="index.php?locale=en_US.ISO8859-1"' class=default_menuitem>&nbsp;<img src='../themes/ICONS/none/bookmark.gif' border=0 class=default_menuimg>English<td>
+</tr>
+	</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- side bar start -->
+<td valign=top>
+	<table cellpadding=0 cellspacing=0 class=default_sidebar>
+<tr height=130><td></td></tr>
+<tr height=16><td class=sbImg>
+<a href='javascript:showMenu()' title='隐藏菜单'><img src="../themes/ICONS/none/back.gif" name=hide class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='newmail.php' target=main title='主页'><img src="../themes/ICONS/none/gohome.gif" class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='javascript:top.main.location.reload(true)' title='刷新'><img src="../themes/ICONS/none/reload.gif" class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='maillist.php?mbox=inbox' target=main title='收信箱'><img src='../themes/ICONS/none/inbox.gif' class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='maillist.php?mbox=outbox' target=main title='发信箱'><img src='../themes/ICONS/none/outbox.gif' class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='maillist.php?mbox=trashbox' target=main title='垃圾箱'><img src='../themes/ICONS/none/trashbox.gif' class=default_menuimg></a>
+<tr height=16><td class=sbImg>
+<a href='maillist.php?mbox=draftbox' target=main title='草稿箱'><img src='../themes/ICONS/none/draftbox.gif' class=default_menuimg></a>
+<tr height=16><td
+1b0
+ class=sbImg>
+<a href='personality.php' target=main title='风格设置'><img src="../themes/ICONS/none/stylekit.gif" class=default_menuimg></a>
+<tr height=16><td class=sbImg><a href='doc_index.php' target="doc"><img src="../themes/ICONS/none/help.gif" class=default_menuimg></a>
+<tr><td>&nbsp;</td></tr>
+</table>	
+</td>
+<!-- side bar end -->
+
+</tr>
+<tr height=50><td colspan=2  class=default_footbar></td></tr>
+</table>
+</body>
+</html>
+0
+

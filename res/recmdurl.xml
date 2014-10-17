@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmark>
+	<dir name="信息搜索">
+		<entry name="网址导航" url="http://wap.hao123.com" />
+		<entry name="百度" url="http://wap.baidu.com" />
+		<entry name="GOOGLE" url="http://www.google.cn/wml" />
+		<entry name="易查" url="http://wap.yicha.cn" />
+		<entry name="搜狗" url="http://wap.sogou.com/" />
+		<entry name="同花顺" url="http://wap.hexin.cn" />
+	</dir>
+	<dir name="门户网站">
+		<entry name="搜狐手机" url="http://wap.sohu.com" />
+		<entry name="新浪手机" url="http://3g.sina.com.cn" />
+		<entry name="3G门户" url="http://3g.net.cn" />
+		<entry name="网易" url="http://wap.163.com" />
+		<entry name="手机之家" url="http://17wap.com/" />
+		<entry name="空中网" url="http://kong.net/" />
+		<entry name="WAP天下" url="http://waptx.com/" />
+		<entry name="捉鱼" url="http://wap.joyes.com/" />
+		<entry name="腾讯QQ" url="http://3g.qq.com" />
+	</dir>
+	<dir name="WAP书城">
+		<entry name="起点移动书库" url="http://wap.cmfu.com/" />
+		<entry name="乐讯" url="http://wap.lxyes.com/" />
+		<entry name="星空玄幻小说" url="http://wap.3gair.com/" />
+		<entry name="17K书城" url="http://wap.17k.com/" />
+		<entry name="掌上书城" url="http://5ibk.com/catalog.jsp?id=0" />
+		<entry name="小说天下" url="http://wapfj.dwap.cn" />
+		<entry name="新梦网典" url="http://kj.dwap.cn/" />
+		<entry name="逍遥掌" url="http://wap.goxoyo.cn/" />
+		<entry name="鱼儿书屋" url="http://wap.yuerw.com/book/" />
+	</dir>	
+	<dir name="其它网站">
+		<entry name="邦邦网" 		url="http://bang.cn/" />
+		<entry name="小虎在线" 		url="http://wap.hucn.net" />
+		<entry name="乐讯" 			url="http://wap.lxyes.com/" />
+		<entry name="摩网" 			url="http://wap.moabc.com"	/> 
+		<entry name="当乐网" 		url="http://wap.downjoy.com/" /> 
+		<entry name="手机加油站" 	url="http://wap.sjjyz.com"	/> 
+		<entry name="万蝶移动博客" 	url="http://wap.pdx.cn/pdx/"/> 
+		<entry name="动感网" 		url="http://wap.mozone.cn/"	/> 
+		<entry name="DTOP娱乐" 		url="http://dtop.cn/"/> 
+		<entry name="稀饭网" 		url="http://wap.xifan.cn/"/> 
+		<entry name="掌景无限" 		url="http://wap.funvio.com/"/> 
+		<entry name="风风网" 		url="http://wap.7234.com/"/> 
+		<entry name="蘑菇无线" 		url="http://wap.mogoo.cn" /> 
+		<entry name="思酷门户" 		url="http://wap.skooo.com/"/> 
+		<entry name="3G无限" 		url="http://wap.3gmax.cn"/> 
+		<entry name="彩蛙网" 		url="http://wap.haha.com.cn/" /> 
+		<entry name="黑客WAP站" 	url="http://18kp.com" /> 
+		<entry name="比分在线" 		url="http://wap.wapzq.com/" /> 
+		<entry name="wap世纪" 		url="http://waps.cn/" /> 
+		<entry name="拇哈网" 		url="http://moha.cn" /> 
+		<entry name="搜蛙社区" 		url="http://sowap.cn" /> 
+		<entry name="掌握中国" url="http://wap.zhangwo.cn" /> 
+		<entry name="凤凰网" url="http://wap.phoenixtv.com/" /> 
+		<entry name="3G泡泡" url="http://3g.pp.cn/" /> 
+	</dir>
+	<dir name="社区论坛"> 
+		<entry name="手机天涯" 		url="http://wap.tianya.cn/" /> 
+		<entry name="百度贴吧" 		url="http://wapp.baidu.com/" />
+	</dir>		
+</bookmark>

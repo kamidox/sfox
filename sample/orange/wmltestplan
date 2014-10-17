@@ -1,0 +1,90 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml"> 
+<wml> 
+  <card id="menu" title="Tests Plan FTRD Division" > 
+    <p>
+		<anchor>&gt; WAP Test Version 6.7
+		<go href="#version"/></anchor><br/>
+		
+		<!--
+		<anchor>&gt;Tests cache
+		<go href="#cache"/></anchor><br/>
+		-->
+
+		<anchor>&gt; Static Graphic Tests
+		<go href="graphic_statique/graphic/index.wml"/></anchor><br/>
+		<anchor>&gt; Dynamic Graphic Tests
+		<go href="graphic_dynamique/graphic/index.wml"/></anchor><br/>
+		<anchor>&gt; WIG Tests 8.3 (Local Copy)
+		<go href="http://browsing.tsar.tm.fr/wap/wml_8.3/8.3/index.wml"/></anchor><br/>
+
+		<!--
+		<anchor>&gt;TCP version 1.2
+		<go href="WBPS_TP_v1.2/index.php"/></anchor><br/>
+		<anchor>&gt; TCP version 1.0
+		<go href="TCP/index.html"/></anchor><br/>
+		<anchor>&gt;TCP version 1.1
+		<go href="WBPS_TP_v1.1/index.php"/></anchor><br/>
+		-->
+    </p> 
+     </card> 
+
+<card id="cache" title="Test cache"  > 
+<do type="prev" label="retour">
+		<prev/>
+	</do>
+    <p> 
+		<anchor>&gt;Tests cache Paris
+		<go href="http://192.168.200.51/testplan/cache/index.wml"/></anchor><br/>
+		<anchor>&gt;Tests cache Lannion
+		<go href="cache/index.wml"/></anchor><br/>
+    </p> 
+</card>
+
+<card id="version" title="version 6.7"  > 
+<do type="prev" label="retour">
+		<prev/>
+	</do>
+    <p> 
+		<anchor>&gt;Tests Essentiels
+		<go href="#essentiel"/></anchor><br/>
+	<anchor>&gt;Tests Optionnels
+		<go href="#Optionnel"/></anchor><br/>
+    </p> 
+</card>
+
+<card id="essentiel" title="tests essentiels"> 
+    <do type="prev" label="retour">
+		<prev/>
+	</do>
+    <p> <anchor>&gt; WSP/WTP
+		<go href="WSP/TEWSP.wml"/></anchor><br/>
+		<anchor>&gt; WML
+		<go href="WML/TEWML.wml"/></anchor><br/>
+		<anchor>&gt; WTA
+		<go href="WTA/WTA.wml"/></anchor><br/>
+		<anchor>&gt; WAE
+		<go href="WAE/UTF8.wml"/></anchor><br/>
+		<anchor>&gt; menu
+		<go href="#menu"/></anchor><br/>
+    </p> 
+</card> 
+
+<card id="Optionnel" title="tests Optionnels"> 
+    <do type="prev" label="retour">
+		<prev/>
+	</do>
+    <p>
+     	<anchor>&gt; WSP/WTP
+		<go href="WSP/TOWSP.wml"/></anchor><br/>
+		<anchor>&gt; WML
+		<go href="WML/TOWML.wml"/></anchor><br/>
+		<anchor>&gt; WTA
+		<go href="WTA/WTA.wml"/></anchor><br/>
+		<anchor>&gt; WAE
+		<go href="WAE/UTF8.wml"/></anchor><br/>
+		<anchor>&gt; menu
+		<go href="#menu"/></anchor><br/>
+    </p>
+  </card> 
+</wml>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<card id='main' title='GoodFeel手机音乐专家'>
+<p align='left'>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=141548&amp;colid=1086&amp;colcd=1086&amp;pg=1&amp;sps=2&amp;pid=2481&amp;skk=%E7%88%B1%E4%BD%A0%E4%B8%80%E4%B8%87%E5%B9%B4&amp;fr=s-ptl-srch&amp;R=19251532&amp;k=ms.ring.1086.0' >1.&#x5218;&#x5fb7;&#x534e;-&#x7231;&#x4f60;&#x4e00;&#x4e07;&#x5e74;(&#x8fea;&#x5385;)</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=104165&amp;colid=1086&amp;colcd=1086&amp;pg=1&amp;sps=2&amp;pid=2481&amp;skk=%E7%88%B1%E4%BD%A0%E4%B8%80%E4%B8%87%E5%B9%B4&amp;fr=s-ptl-srch&amp;R=19251532&amp;k=ms.ring.1086.0' >2.&#x7231;&#x4f60;&#x4e00;&#x4e07;&#x5e74;</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=103359&amp;colid=1086&amp;colcd=1086&amp;pg=1&amp;sps=2&amp;pid=2481&amp;skk=%E7%88%B1%E4%BD%A0%E4%B8%80%E4%B8%87%E5%B9%B4&amp;fr=s-ptl-srch&amp;R=19251532&amp;k=ms.ring.1086.0' >3.&#x7231;&#x4f60;&#x4e00;&#x4e07;&#x5e74;</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=104988&amp;colid=1086&amp;colcd=1086&amp;pg=1&amp;sps=2&amp;pid=2481&amp;skk=%E7%88%B1%E4%BD%A0%E4%B8%80%E4%B8%87%E5%B9%B4&amp;fr=s-ptl-srch&amp;R=19251532&amp;k=ms.ring.1086.0' >4.&#x7231;&#x4f60;&#x4e00;&#x4e07;&#x5e74;.mp3</a><br/>
+<br/>
+<input value='&#x5218;&#x5fb7;&#x534e;' name='searchtext' emptyok="true" maxlength='10' size='6'/><anchor>&#x641c;&#x7d22;<go href='http://218.206.87.100/ms/ring/c.jsp' method='get'><postfield name='skk' value='$searchtext'/><postfield name='colid' value='3000'/><postfield name='colcd' value='1086'/><postfield name='pid' value='2481'/><postfield name='fr' value='s-ptl-srch'/></go></anchor><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colid=908366&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;dk=yy.ring.1086.0&amp;R=19251532' >&#x2193;&#x5f53;&#x524d;&#x70ed;&#x95e8;&#x70b9;&#x51fb;</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=141050&amp;colid=908366&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;R=19251532&amp;dk=yy.ring.1086.0&amp;k=ms.ring.1086.0' >06&#x4e16;&#x754c;&#x676f;&#x4e3b;&#x9898;&#x66f2;-Time Of Our Lives.mp3</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=132119&amp;colid=905543&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;R=19251532&amp;dk=yy.ring.1086.0&amp;k=ms.ring.1086.0' >&#x8d75;&#x8587;-&#x53d1;&#x73b0;.mp3</a><br/>
+<a href='http://wap.monternet.com/reversesubscribe?SessionID=0&amp;SPID=900511&amp;ServiceID=03201171&amp;SPURL=http://dl.wap.sohu.com/mms/TMMS/4/ds.php?cntid=131149&amp;colid=9010244&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;R=19251532&amp;dk=yy.ring.1086.0&amp;k=ms.ring.1086.0' >&#x6881;&#x9759;&#x8339;-&#x5b81;&#x590f;(&#x8d85;&#x957f;&#x7248;)</a><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colid=905543&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;dk=yy.ring.1086.0&amp;R=19251532' >+&#x6700;&#x65b0;MP3&#x6392;&#x884c;!</a><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colid=3055&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;dk=yy.ring.1086.0&amp;R=19251532' >+&#x6700;&#x65b0;&#x4e0a;&#x7ebf;&#x6b4c;&#x66f2;</a><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colid=3030&amp;colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;dk=yy.ring.1086.0&amp;R=19251532' >+&#x8d85;&#x957f;&#x5b8c;&#x7f8e;&#x70ab;&#x94c3;</a><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colcd=1086&amp;colid=1086&amp;fr=s-ptl-srch&amp;skk=singer2360&amp;r=19251532&amp;pid=2481&amp;dk=yy.ring.1086.0' >&#x6797;&#x4fca;&#x6770;</a>-<a href='http://218.206.87.100/ms/ring/c.jsp?colcd=1086&amp;colid=1086&amp;fr=s-ptl-srch&amp;skk=singer3565&amp;r=19251532&amp;pid=2481&amp;dk=yy.ring.1086.0' >&#x5200;&#x90ce;</a><br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colcd=1086&amp;colid=1086&amp;fr=s-ptl-srch&amp;skk=singer1220&amp;r=19251532&amp;pid=2481&amp;dk=yy.ring.1086.0' >&#x5468;&#x534e;&#x5065;</a>-<a href='http://218.206.87.100/ms/ring/c.jsp?colcd=1086&amp;colid=1086&amp;fr=s-ptl-srch&amp;skk=singer1343&amp;r=19251532&amp;pid=2481&amp;dk=yy.ring.1086.0' >&#x9648;&#x6167;&#x7433;</a><br/>
+<br/>
+GoodFeel&#x624b;&#x673a;&#x97f3;&#x4e50;&#x4e13;&#x5bb6;<br/>
+&#x53d1;&#x9001;0&#x5230;666666&#x53ef;&#x5feb;&#x901f;&#x8bbf;&#x95ee;&#x672c;&#x7ad9;<br/>
+<br/>
+<a href='http://218.206.87.100/ms/ring/c.jsp?colcd=1086&amp;pid=2481&amp;fr=s-ptl-srch&amp;R=19251532' >GoodFeel&#x7cbe;&#x54c1;&#x94c3;&#x58f0;</a><br/></p>
+</card>
+</wml>
+
+
+
