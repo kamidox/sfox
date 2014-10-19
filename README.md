@@ -47,7 +47,7 @@ It also support build arm architecture librarys, please refer to `make` director
 
 ## License
 
-Just use it if it's useful for you. I used to pround of myself to write this code. I used to excited to work to midnight to work on this project. It's all gone now. Enjoy geeking ...
+Just use it if it's useful for you. I used to pround of myself to write this code. I used to excited to work to midnight on this project.
 
 [1]: http://technical.openmobilealliance.org/Technical/technical-information/specifications-for-public-comment-archive
 [2]: www.spreadtrum.com.cn
